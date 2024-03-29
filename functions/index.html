@@ -9,8 +9,19 @@
 
   <script>
     // TODO: Add hello code
+    function getMessage(name) {
+      return 'Hello, ' + name + '...';
+    }
+    const message = getMessage('Joel FOKA');
+    document.write(message);
     
     // TODO: Add setTimeOut code
+    setTimeout(
+      () => {
+        document.write('...Hello again!')
+      },
+      2000
+    );
   </script>
   
 </body>
